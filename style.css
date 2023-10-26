@@ -1,0 +1,31 @@
+.result > input {
+  margin-top: 14.5px;
+  width: 25px;
+  font-size: 1rem;
+  outline: hidden;
+  border: 1px solid #000;
+}
+
+.elems {
+  background-color: #05c799;
+  justify-content: space-between;
+  width: 150px;
+  border: 1px solid #000;
+  display: flex;
+  letter-spacing: 0.5rem;
+}
+
+.elems > div {
+  color: #fff;
+  text-align: center;
+  width: 30px;
+  height: 5vh;
+  border: 1px solid #000;
+}
+
+.output > p:first-child {
+  color: #02db38;
+}
+.output > p:last-child {
+  color: #b30c00;
+}

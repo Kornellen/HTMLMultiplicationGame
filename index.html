@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="elems">
+        <div class="firstElem">
+          <p id="firstElem"></p>
+        </div>
+        <p>X</p>
+        <div class="secondElem">
+          <p id="secondElem"></p>
+        </div>
+        <div class="result">
+          <input
+            type="text"
+            name=""
+            id="result"
+            maxlength="3"
+            placeholder="000"
+            autocomplete="off"
+          />
+        </div>
+      </div>
+
+      <div class="check">
+        <button id="check">Check</button>
+      </div>
+
+      <div class="output">
+        <p :first-child id="goodAnswer">1</p>
+
+        <p id="badAnswer">1</p>
+      </div>
+      <div class="goodResults">
+        <p id="good"></p>
+        <p id="bad"></p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
