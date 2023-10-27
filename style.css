@@ -1,18 +1,40 @@
+body {
+  background-color: #036f56;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 10px 0 0 0px;
+
+  border: 1px solid #000;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
 .result > input {
+  background-color: #05c799;
   margin-top: 14.5px;
   width: 25px;
   font-size: 1rem;
-  outline: hidden;
-  border: 1px solid #000;
+  outline: none;
+  border: transparent;
+  border-bottom: 1px solid #000;
 }
 
 .elems {
+  margin: 5px;
   background-color: #05c799;
   justify-content: space-between;
   width: 150px;
   border: 1px solid #000;
   display: flex;
   letter-spacing: 0.5rem;
+  text-align: center;
 }
 
 .elems > div {
