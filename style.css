@@ -9,45 +9,55 @@ body {
 
 .container {
   margin: 10px 0 0 0px;
-
   border: 1px solid #000;
   display: block;
   justify-content: center;
   align-items: center;
 }
 
-.result > input {
-  background-color: #05c799;
-  margin-top: 14.5px;
-  width: 25px;
+button {
+  border: 2.5px solid #050404;
+  background-color: #3f7d4f;
   font-size: 1rem;
+  font-weight: bold;
+  width: 60px;
+}
+
+input {
+  border: 1px solid #0215119c;
+  font-size: 1rem;
+  background-color: #05c799;
   outline: none;
-  border: transparent;
-  border-bottom: 1px solid #000;
+  width: 50px;
 }
 
 .elems {
+  font-size: 1.5rem;
   margin: 5px;
   background-color: #05c799;
-  justify-content: space-between;
-  width: 150px;
+  width: 112px;
   border: 1px solid #000;
   display: flex;
   letter-spacing: 0.5rem;
   text-align: center;
 }
 
-.elems > div {
-  color: #fff;
-  text-align: center;
-  width: 30px;
-  height: 5vh;
-  border: 1px solid #000;
+.output {
+  display: block;
+  font-size: 1.5rem;
 }
 
-.output > p:first-child {
+.output > p:nth-child(2) {
+  color: #848484;
+}
+
+.output > p:nth-child(4) {
   color: #02db38;
 }
-.output > p:last-child {
+.output > p:nth-child(6) {
   color: #b30c00;
+}
+
+.output > span {
+  color: #04b8c2;
 }
